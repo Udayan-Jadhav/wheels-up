@@ -6,4 +6,4 @@ joblib
 scikit-learn
 lightgbm
 streamlit
-requestsgit 
+requestsgit git a
