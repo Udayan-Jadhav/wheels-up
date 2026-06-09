@@ -45,3 +45,6 @@ def predict(features:flight):
     result= "Delayed " if prediction==1 else "On time"
     return {"prediction":result}
 
+@app.get("/health")
+def health():
+    return {"status": "ok"}
