@@ -40,7 +40,10 @@ if st.button('Predict'):
         "crs_elapsed_time": float(crs_elapsed_time),
         "distance": float(distance)
     }
-    response=requests.post("http://localhost:8000/predict",json=payload)
+    response = requests.post(
+    "https://flight-delay-predictor-l6j5.onrender.com/predict",
+    json=payload
+    )
     result=response.json()["prediction"]
 
     if "Delayed" in result:
