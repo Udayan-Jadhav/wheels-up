@@ -14,11 +14,11 @@ st.markdown("""
         padding: 3rem 1rem 2rem 1rem;
     }
     .hero-title {
-        font-size: 3rem;
-        font-weight: 800;
-        color: #ffffff;
-        margin: 0;
-        letter-spacing: -1px;
+    font-size: 4.5rem;
+    font-weight: 800;
+    color: #ffffff;
+    margin: 0;
+    letter-spacing: -1.5px;
     }
     .hero-subtitle {
         font-size: 1.1rem;
