@@ -3,7 +3,7 @@ from pydantic import BaseModel
 import joblib
 import pandas as pd
 
-app=FastAPI()
+app = FastAPI(title="Wheels Up", description="Flight delay prediction API")
 
 model = joblib.load("models/model.pkl")
 encoder = joblib.load("models/encoder.pkl")

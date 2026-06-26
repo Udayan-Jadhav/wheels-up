@@ -1,4 +1,4 @@
-# Flight Delay Predictor
+# Wheels Up ✈️
 
 A machine learning project that predicts whether a flight will be delayed by more than 15 minutes using historical US flight data from 2024.
 
@@ -41,12 +41,7 @@ Some of the features I created include:
 * Holiday season indicator
 * Short flight indicator
 
-## Model Results
-
-* Accuracy: 66%
-* Recall for delayed flights: 66%
-* Training data: 5.6 million flights
-* Test data: 1.4 million flights
+    
 
 ## Project Components
 
