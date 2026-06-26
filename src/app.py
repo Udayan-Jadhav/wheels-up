@@ -123,9 +123,9 @@ if submitted:
     with st.spinner("Checking flight history..."):
         try:
             response = requests.post(
-                "https://flight-delay-predictor-l6j5.onrender.com/predict",
-                json=payload,
-                timeout=60
+            "https://wheels-up-api.onrender.com/predict",
+            json=payload,
+            timeout=60
             )
             response.raise_for_status()
             result = response.json()["prediction"]
