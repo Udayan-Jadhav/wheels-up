@@ -2,11 +2,7 @@ import streamlit as st
 import requests
 from datetime import datetime
 
-st.set_page_config(
-    page_title="Flight Delay Predictor",
-    page_icon="✈️",
-    layout="centered"
-)
+st.set_page_config(page_title="Wheels Up", page_icon="✈️", layout="centered")
 
 st.markdown("""
     <style>
@@ -72,7 +68,7 @@ st.markdown("""
 # --- Hero ---
 st.markdown("""
     <div class="hero">
-        <p class="hero-title">✈️ FlightCast</p>
+        <p class="hero-title">✈️ Wheels Up</p>
         <p class="hero-subtitle">Will your flight be on time?</p>
     </div>
 """, unsafe_allow_html=True)
